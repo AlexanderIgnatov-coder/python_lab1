@@ -22,4 +22,6 @@ pct_second = (abs_second / total) * 100
 
 
 print(f"Первых 125 чисел: {pct_first}% | {(WHITE + ' ' + RESET) * int(pct_first // 2)}")
+
 print(f"Вторых 125 чисел: {pct_second}% | {(WHITE + ' ' + RESET) * int(pct_second // 2)}")
+f.close()
