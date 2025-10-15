@@ -1,6 +1,5 @@
 import math
 
-
 ESC = "\x1b"
 CSI = f"{ESC}["
 RESET = f"{CSI}0m"
@@ -43,4 +42,5 @@ def plot(h=30, w=30):
 
 
 if __name__ == "__main__":
+
     plot()
