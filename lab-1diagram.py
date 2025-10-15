@@ -15,11 +15,9 @@ second = numbers[125:250]
 abs_first = sum(abs(num) for num in first) / 125
 abs_second = sum(abs(num) for num in second) / 125
 
-
 total = abs_first + abs_second
 pct_first = (abs_first / total) * 100
 pct_second = (abs_second / total) * 100
-
 
 print(f"Первых 125 чисел: {pct_first:5.1f}% | {(WHITE + ' ' + RESET) * int(pct_first // 2)}")
 print(f"Вторых 125 чисел: {pct_second:5.1f}% | {(WHITE + ' ' + RESET) * int(pct_second // 2)}")
